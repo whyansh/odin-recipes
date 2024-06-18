@@ -1,1 +1,2 @@
-This is a website showcasing recipes and stuff.
+This is a website showcasing recipes.
+
