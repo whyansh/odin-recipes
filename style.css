@@ -1,0 +1,21 @@
+body {
+    font-family: arial, helvetica, verdana, sans-serif;
+    background-color: aliceblue;
+}
+h1 {
+    color: rgb(101, 89, 70);
+    font-size: 58px;
+    font-weight: 10;
+    background-color: beige;
+    text-align: center;
+    
+}
+li {
+    font-size: medium;
+    font-weight: 79;
+    
+    color: rgb(72, 63, 7);
+}
+p {
+    font-weight: 90;
+}
