@@ -1,6 +1,8 @@
 body {
     font-family: arial, helvetica, verdana, sans-serif;
     background-color: aliceblue;
+    animation-name: meow;
+    animation-duration: 5s;
 }
 h1 {
     color: rgb(101, 89, 70);
@@ -8,7 +10,19 @@ h1 {
     font-weight: 10;
     background-color: beige;
     text-align: center;
-    
+    animation-name: meow;
+    animation-duration: 9s;
+}
+@keyframes meow {
+    from {background-color: black;}
+   
+}
+div {
+    display: flex;
+    justify-content: center;
+}
+.image {
+    border-radius: 100px;
 }
 li {
     font-size: medium;
@@ -18,4 +32,19 @@ li {
 }
 p {
     font-weight: 90;
+}
+
+
+.mac:hover {
+    background-color: rgb(228, 214, 136);
+    transition-duration: 1s
+    
+}
+.banana:hover{
+    background-color: rgb(91, 89, 184);
+    transition-duration: 1s;
+}
+.miso:hover{
+    background-color: rgb(94, 131, 173);
+    transition-duration: 1s;
 }
